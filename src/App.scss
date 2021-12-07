@@ -13,5 +13,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .App {
-  text-align: center;
+  background-color: #202227;
+  position: relative;
+  height: 100vh;
+
+  -webkit-touch-callout: none;  /* Para no poder seleccionar texto*/
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
 }

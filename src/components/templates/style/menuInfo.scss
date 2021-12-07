@@ -1,0 +1,90 @@
+.containerUp {
+   padding: 1rem 2rem .8rem .8rem;
+   border-bottom: 1px solid #3B3B3B;
+   position: relative;
+   & svg {
+      position: absolute;
+      top: 0.7rem;
+      right: .8rem;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      padding: 9px;
+      color: white;
+      transform: rotate(-90deg);
+      &:active {
+         background-color: rgba(0,0,0,0.3);
+      }
+   }
+   & .title {
+      color: #fff;
+      font-size: 1.1em;
+      font-weight: 500;
+      margin-bottom: .5rem;
+   }
+   & .textView {
+      color: #aaa;
+      font-size: .8em;
+   }
+}
+
+.containerDown {
+   border-bottom: 1px solid #3B3B3B;
+   height: 3rem;
+   display: grid;
+   align-items: center;
+   grid-template-columns: 1fr auto;
+   padding: 0 .8rem;
+   & .boxUser {
+      display: flex;
+      align-items: center;
+      & .logo {
+         width: 30px;
+         height: 30px;
+         border-radius: 50%;
+         margin-right: .7rem;
+      }
+      & .chanel {
+         display: flex;
+         justify-content: center;
+         align-items: start;
+         flex-direction: column;
+         & .up {
+            font-size: .7em;
+            color: white;
+            font-weight: 500;
+         }
+         & .down {
+            color: #aaa;
+            font-size: .6em;
+            font-weight: 400;
+         }
+      }
+   }
+   & .subs {
+      border: none;
+      padding: 8px 0;
+      color: #FF404B;
+      background-color: transparent;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      &:active {
+         outline: none;
+         border: none;
+      }
+      &:hover {
+         outline: none;
+         border: none;
+      }
+      &:focus {
+         outline: none;
+         border: none;
+      }
+      & svg {
+         color: #aaa;
+         width: .8rem;
+         margin-left: .7rem;
+      }
+   }
+}

@@ -1,12 +1,18 @@
-import React from 'react';
 import './App.scss';
 
-function App() {
+//Import Components
+import DisplayPlayer from './components/templates/DisplayPlayer'
+import MenuInfo from './components/templates/MenuInfo'
+import ListPlayer from './components/templates/ListPlayer'
+
+export default function App() {
   return (
     <div className="App">
-      hola
+      <DisplayPlayer />
+      <main className="main">
+        <MenuInfo />
+        <ListPlayer />
+      </main>
     </div>
   );
 }
-
-export default App;
