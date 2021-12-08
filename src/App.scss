@@ -22,5 +22,13 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
 
+.main {
+  overflow-y: scroll;
+  height: calc(100vh - 56.25vw);
+  scrollbar-width: none;       // Esto es para ocultarlo de firefox
+  &::-webkit-scrollbar {       // Esto es para edge, chrome, safari.
+    display: none;
+  }
 }

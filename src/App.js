@@ -3,7 +3,7 @@ import './App.scss';
 //Import Components
 import DisplayPlayer from './components/templates/DisplayPlayer'
 import MenuInfo from './components/templates/MenuInfo'
-import ListPlayer from './components/templates/ListPlayer'
+import MenuPlayer from './components/templates/MenuPlayer'
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
       <DisplayPlayer />
       <main className="main">
         <MenuInfo />
-        <ListPlayer />
+        <MenuPlayer />
       </main>
     </div>
   );

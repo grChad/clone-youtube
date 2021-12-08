@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import prueva from './Prueva'
+import newMenuInfo from './MenuInfoReducer'
 
 const RootReducer = combineReducers({
-  prueva
+  newMenuInfo
 })
 
 export default RootReducer

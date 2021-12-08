@@ -1,4 +1,4 @@
-.containerUp {
+.articleUp {
    padding: 1rem 2rem .8rem .8rem;
    border-bottom: 1px solid #3B3B3B;
    position: relative;
@@ -28,7 +28,7 @@
    }
 }
 
-.containerDown {
+.articleDown {
    border-bottom: 1px solid #3B3B3B;
    height: 3rem;
    display: grid;
@@ -47,7 +47,7 @@
       & .chanel {
          display: flex;
          justify-content: center;
-         align-items: start;
+         align-items: flex-start;
          flex-direction: column;
          & .up {
             font-size: .7em;
