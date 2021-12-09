@@ -5,7 +5,7 @@
    & svg {
       position: absolute;
       top: 0.7rem;
-      right: .8rem;
+      right: .4rem;
       width: 2rem;
       height: 2rem;
       border-radius: 50%;
@@ -61,12 +61,17 @@
          }
       }
    }
-   & .subs {
+}
+
+.boxSubs {
+   position: relative;
+   & button {
       border: none;
       padding: 8px 0;
       color: #FF404B;
       background-color: transparent;
       font-weight: bold;
+      font-size: 1em;
       display: flex;
       align-items: center;
       &:active {
@@ -81,10 +86,32 @@
          outline: none;
          border: none;
       }
-      & svg {
-         color: #aaa;
-         width: .8rem;
-         margin-left: .7rem;
+   }
+   & svg {
+      width: 1.1rem;
+      margin-left: .9rem;
+   }
+   & .boxSubsFloat {
+      position: absolute;
+      top: 0;
+      right: 0rem;
+      z-index: 130;
+      width: 140px;
+      background-color: #202227;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.8),
+                  0 2px 2px rgba(0, 0, 0, 0.6);
+      display: flex;
+      flex-direction: column;
+      & p {
+         height: 2.5rem;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         color: white;
+         padding: 0 .6rem;
+      }
+      & .p1 {
+         background-color: #181818;
       }
    }
 }
