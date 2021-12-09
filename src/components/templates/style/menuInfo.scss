@@ -92,6 +92,8 @@
       margin-left: .9rem;
    }
    & .boxSubsFloat {
+      display: none;
+      flex-direction: column;
       position: absolute;
       top: 0;
       right: 0rem;
@@ -100,8 +102,6 @@
       background-color: #202227;
       box-shadow: 0 0 1px rgba(0, 0, 0, 0.8),
                   0 2px 2px rgba(0, 0, 0, 0.6);
-      display: flex;
-      flex-direction: column;
       & p {
          height: 2.5rem;
          display: flex;

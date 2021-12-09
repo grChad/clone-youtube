@@ -19,7 +19,7 @@ export default function MenuInfo() {
   }
   function callBell (e) {
     const boxGeneral = document.querySelector('.boxSubsFloat')
-    boxGeneral.style.display = 'block'
+    boxGeneral.style.display = 'flex'
   }
   const styleSpan = {
     color: '#ccc',
