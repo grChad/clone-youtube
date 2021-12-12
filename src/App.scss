@@ -28,6 +28,7 @@ body {
   overflow-y: scroll;
   height: calc(100vh - 56.25vw);
   scrollbar-width: none;       // Esto es para ocultarlo de firefox
+  scroll-behavior: smooth;
   &::-webkit-scrollbar {       // Esto es para edge, chrome, safari.
     display: none;
   }

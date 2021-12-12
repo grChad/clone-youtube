@@ -17,10 +17,12 @@ export default function MenuInfo() {
       setSubs(true)
     }
   }
-  function callBell (e) {
+
+  function callBell () {
     const boxGeneral = document.querySelector('.boxSubsFloat')
     boxGeneral.style.display = 'flex'
   }
+
   const styleSpan = {
     color: '#ccc',
     display: 'flex',
