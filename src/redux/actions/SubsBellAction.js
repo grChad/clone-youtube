@@ -1,10 +1,10 @@
 export const CHANGE_BELL = 'CHANGE_BELL'
 
-const change_bell = (valorBoll) => {
+const changeBell = (valorBoll) => {
   return {
     type: CHANGE_BELL,
     payload: valorBoll
   }
 }
 
-export default change_bell
+export default changeBell

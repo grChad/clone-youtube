@@ -1,4 +1,4 @@
-import { combineReducers } from "redux";
+import { combineReducers } from 'redux'
 import newMenuInfo from './MenuInfoReducer'
 import cambiarCampana from './SubsBellReducer'
 
@@ -8,4 +8,3 @@ const RootReducer = combineReducers({
 })
 
 export default RootReducer
-

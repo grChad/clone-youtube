@@ -1,12 +1,13 @@
-import './App.scss';
+import './App.scss'
 
-//Import Components
+// Import Components
 import DisplayPlayer from './components/templates/DisplayPlayer'
 import MenuInfo from './components/templates/MenuInfo'
 import MenuPlayer from './components/templates/MenuPlayer'
 
-export default function App() {
+export default function App () {
   return (
+    /* eslint jsx-quotes: ['error', 'prefer-double'] */
     <div className="App">
       <DisplayPlayer />
       <main className="main">
@@ -14,5 +15,5 @@ export default function App() {
         <MenuPlayer />
       </main>
     </div>
-  );
+  )
 }

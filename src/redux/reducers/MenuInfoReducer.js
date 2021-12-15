@@ -10,12 +10,12 @@ const defaultState = {
   }
 }
 
-const newMenuInfo = ( state = defaultState, action ) => {
-  switch(action.type) {
+const newMenuInfo = (state = defaultState, action) => {
+  switch (action.type) {
     case LOAD_INFO:
       return {
         ...state,
-        returnArray: action.payload 
+        returnArray: action.payload
       }
     default: return state
   }
