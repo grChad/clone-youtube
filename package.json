@@ -1,8 +1,8 @@
 {
+  "homepage": "https://GabrielRIP.github.io/clone-youtube",
   "name": "clone-youtube",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://GabrielRIP.github.io/clone-youtube",
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -46,6 +46,6 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.0.0",
     "eslint-plugin-react": "^7.27.1",
-    "gh-pages": "^.2.3"
+    "gh-pages": "^3.2.3"
   }
 }

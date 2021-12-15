@@ -7,8 +7,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
-    'standard',
-    'plugin:react/jsx-runtime'
+    'standard'
   ],
   parserOptions: {
     ecmaFeatures: {
