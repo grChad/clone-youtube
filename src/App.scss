@@ -13,10 +13,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .App {
-  background-color: #202227;
-  position: relative;
-  height: 100vh;
-
   -webkit-touch-callout: none;  /* Para no poder seleccionar texto*/
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -25,6 +21,7 @@ body {
 }
 
 .main {
+  background-color: #202227;
   overflow-y: scroll;
   height: calc(100vh - 56.25vw);
   scrollbar-width: none;       // Esto es para ocultarlo de firefox

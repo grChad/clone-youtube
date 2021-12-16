@@ -13,8 +13,7 @@ export default function ListPlayer ({ titulo, canal, vistas, image, classId }) {
 
     if (e.target.tagName === 'svg' ||
       e.target.tagName === 'path') {
-      const alerta = alert('estamos trabajando en ello')
-      return alerta
+      alert('estamos trabajando en ello')
     } else {
       switch (true) {
         case (e.target.tagName === 'IMG' ||

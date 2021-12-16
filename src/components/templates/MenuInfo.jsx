@@ -35,20 +35,26 @@ export default function MenuInfo () {
     if (e.target.classList.value === 'p1' ||
       e.target.parentElement.classList.value === 'p1' ||
       e.target.parentElement.parentElement.classList.value === 'p1') {
-      console.log('el primer P')
       boxGeneral.firstChild.style.background = '#181818'
       boxGeneral.lastChild.style.background = '#202227'
       dispatch(changeBell(true))
+      console.log(!boxGeneral)
     }
     if (e.target.classList.value === 'p2' ||
       e.target.parentElement.classList.value === 'p2' ||
       e.target.parentElement.parentElement.classList.value === 'p2') {
-      console.log('el segundo P')
       boxGeneral.lastChild.style.background = '#181818'
       boxGeneral.firstChild.style.background = '#202227'
       dispatch(changeBell(false))
     }
     boxGeneral.style.display = 'none'
+    // Function para que al darle click fuera me cierre
+    const mainMain = document.querySelector('.App')
+    mainMain.addEventListener('click', (event) => {
+      if (event.target !== boxGeneral) {
+        boxGeneral.style.display = 'none'
+      }
+    })
   }
 
   return (
